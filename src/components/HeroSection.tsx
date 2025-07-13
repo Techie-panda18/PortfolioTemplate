@@ -45,7 +45,7 @@ const HeroSection: React.FC = () => {
             custom={0}
             variants={textVariants}
           >
-            Hi, I'm John Doe —
+            Hi, I'm Sakstiks —
           </motion.span>{" "}
           <motion.span 
             className="inline-block hero-text-gradient"
@@ -54,18 +54,20 @@ const HeroSection: React.FC = () => {
             custom={1}
             variants={textVariants}
           >
-            turning ideas into powerful digital products.
+            Thinks & Build its.
           </motion.span>
         </motion.h1>
         
-        <motion.p 
-          className="text-xl md:text-2xl font-light italic text-white/80 mb-10 leading-relaxed max-w-3xl mx-auto"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+       <motion.p
+               initial={{ opacity: 0, y: 20 }
+               animate={{ opacity: 1, y: 0 }} 
+               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+               className="mt-4 text-xl text-gray-300"
         >
-          Building robust solutions with code, design, and caffeine.
-        </motion.p>
+            Aspiring Web Dev & Coder 🚀
+         </motion.p>
+
+
         
         <motion.div
           initial={{ opacity: 0, y: 20 }}
